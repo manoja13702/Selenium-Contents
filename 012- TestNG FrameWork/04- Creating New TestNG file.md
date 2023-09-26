@@ -12,7 +12,7 @@ To create a new TestNG test file in Eclipse:
 
 ![POM](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/259bac62-52ef-49b2-a860-491c7e6a74d0)
 
-- You need to add two tags as  mentioned below dependencies /dependencies.
+- You need to add two tags as  mentioned below dependencies & /dependencies.
 
 ![DS](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/c5e1cca3-1ed3-41d5-802e-d7367e9c65d2)
 
