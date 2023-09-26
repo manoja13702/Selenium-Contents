@@ -1,4 +1,4 @@
-﻿**Selectorshub:**
+﻿## Selectorshub: ##
 
 Selectorshub is a tool designed to help users generate complex and accurate CSS selectors, XPath selectors, and more. It assists in identifying unique locators for web elements. It's particularly useful in scenarios where elements have dynamic IDs, making it challenging to create stable locators.
 
