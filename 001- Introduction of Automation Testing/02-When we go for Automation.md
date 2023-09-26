@@ -1,12 +1,12 @@
-﻿**Automation testing is appropriate in the following scenarios:**
+﻿## Automation testing is appropriate in the following scenarios: ##
 
 **Repetitive Testing**:
 
-` `When there are repetitive test cases that need to be executed frequently, automation saves time and effort.
+When there are repetitive test cases that need to be executed frequently, automation saves time and effort.
 
 **Regression Testing**:
 
-` `For ensuring that new code changes don't adversely affect existing functionality, automation is essential to retest the entire application.
+For ensuring that new code changes don't adversely affect existing functionality, automation is essential to retest the entire application.
 
 **Performance Testing:** 
 
@@ -20,7 +20,7 @@ For scenarios that are complex, time-consuming, or difficult to perform manually
 
 When the application needs to be tested across different devices, browsers, or operating systems, automation ensures consistency and efficiency.
 
-**Real time example:**
+## Real time example: ##
 
 In Shop Ease, automation would be necessary:
 
