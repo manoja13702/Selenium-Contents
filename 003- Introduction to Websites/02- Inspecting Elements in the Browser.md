@@ -1,4 +1,4 @@
-﻿**Inspecting Elements in a Browser:**
+﻿## Inspecting Elements in a Browser: ##
 
 Modern web browsers provide built-in developer tools that allow you to inspect elements on a webpage. You can right-click on any element and select "Inspect" to open the developer tools. From there, you can view the HTML structure and attributes associated with each element.
 
