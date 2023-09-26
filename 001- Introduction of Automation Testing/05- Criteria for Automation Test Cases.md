@@ -1,4 +1,4 @@
-﻿**Criteria for Automation Test Cases:**
+﻿## Criteria for Automation Test Cases: ##
 
 **Stability:** 
 
@@ -16,7 +16,7 @@ Test cases with an expected outcome that can be defined in advance are ideal for
 
 Automation should focus on testing critical functions or features of the application.
 
-**Real time example:**
+## Real time example: ##
 
 **Stability:** 
 
