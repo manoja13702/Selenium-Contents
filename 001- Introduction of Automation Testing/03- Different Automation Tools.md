@@ -1,4 +1,4 @@
-﻿**There is a wide range of automation testing tools available, each catering to specific needs and technologies:**
+﻿## There is a wide range of automation testing tools available, each catering to specific needs and technologies: ##
 
 **Selenium:** 
 
@@ -20,7 +20,7 @@ A tool for behaviour-driven development (BDD) that allows automated acceptance t
 
 Tools for automating and testing API endpoints.
 
-**Real time examples:**
+## Real time examples: ##
 
 **Selenium:** 
 
@@ -28,4 +28,4 @@ To automate testing for web functionalities like adding items to the cart and na
 
 **Postman:**
 
-` `For API testing, ensuring that the backend processes, like updating inventory, function correctly.
+For API testing, ensuring that the backend processes, like updating inventory, function correctly.
