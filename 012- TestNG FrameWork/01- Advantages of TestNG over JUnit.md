@@ -1,4 +1,4 @@
-﻿**Advantages of TestNG over JUnit:**
+﻿## Advantages of TestNG over JUnit: ##
 
 **a. Parallel Test Execution**:
 
