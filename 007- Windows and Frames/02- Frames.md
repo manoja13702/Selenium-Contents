@@ -1,4 +1,4 @@
-﻿**Frame:**
+﻿## Frame: ##
 
 Frame allow dividing a browser window into multiple sections, each with its own HTML document. Selenium needs to switch to the frame in which the target element is present to interact with it.
 
@@ -6,7 +6,9 @@ Frame allow dividing a browser window into multiple sections, each with its own 
 
 Assume we have a webpage with a frame, and we need to interact with an element inside that frame.
 
-\---------------------------------------------------------------------------------------------------------
+---
+
+~~~
 
 // Switch to the frame by index
 
@@ -21,3 +23,4 @@ frameElement.click();
 // Switch back to the main content
 
 driver.switchTo().defaultContent();
+~~~
