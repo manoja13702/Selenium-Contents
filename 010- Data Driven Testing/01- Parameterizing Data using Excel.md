@@ -1,7 +1,7 @@
 ﻿**Reading Data from Excel:**
 
-\---------------------------------------------------------------------------------------------------------
 
+~~~
 import org.apache.poi.ss.usermodel.\*;
 
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -12,46 +12,47 @@ import java.io.IOException;
 
 public class ExcelDataReader {
 
-`    `public static Object[][] readDataFromExcel(String filePath, String sheetName) throws IOException {
+public static Object[][] readDataFromExcel(String filePath, String sheetName) throws IOException {
 
-`        `FileInputStream inputStream = new FileInputStream(filePath);
+FileInputStream inputStream = new FileInputStream(filePath);
 
-`        `Workbook workbook = new XSSFWorkbook(inputStream);
+Workbook workbook = new XSSFWorkbook(inputStream);
 
-`        `Sheet sheet = workbook.getSheet(sheetName);
+Sheet sheet = workbook.getSheet(sheetName);
 
-`        `int rowCount = sheet.getPhysicalNumberOfRows();
+int rowCount = sheet.getPhysicalNumberOfRows();
 
-`        `int colCount = sheet.getRow(0).getPhysicalNumberOfCells();
+int colCount = sheet.getRow(0).getPhysicalNumberOfCells();
 
-`        `Object[][] data = new Object[rowCount - 1][colCount];
+Object[][] data = new Object[rowCount - 1][colCount];
 
-`        `for (int i = 1; i < rowCount; i++) {
+for (int i = 1; i < rowCount; i++) {
 
-`            `Row row = sheet.getRow(i);
+Row row = sheet.getRow(i);
 
-`            `for (int j = 0; j < colCount; j++) {
+for (int j = 0; j < colCount; j++) {
 
-`                `data[i - 1][j] = row.getCell(j).toString();
-
-`            `}
-
-`        `}
-
-`        `workbook.close();
-
-`        `inputStream.close();
-
-`        `return data;
-
-`    `}
+data[i - 1][j] = row.getCell(j).toString();
 
 }
 
+}
+
+workbook.close();
+
+inputStream.close();
+
+return data;
+
+}
+
+}
+~~~
 
 **Writing Data to Excel:**
 
-\---------------------------------------------------------------------------------------------------------
+---
+~~~
 
 import org.apache.poi.ss.usermodel.\*;
 
@@ -63,34 +64,35 @@ import java.io.IOException;
 
 public class ExcelDataWriter {
 
-`    `public static void writeDataToExcel(String filePath, String sheetName, Object[][] data) throws IOException {
+public static void writeDataToExcel(String filePath, String sheetName, Object[][] data) throws IOException {
 
-`        `Workbook workbook = new XSSFWorkbook();
+Workbook workbook = new XSSFWorkbook();
 
-`        `Sheet sheet = workbook.createSheet(sheetName);
+Sheet sheet = workbook.createSheet(sheetName);
 
-`        `for (int i = 0; i < data.length; i++) {
+for (int i = 0; i < data.length; i++) {
 
-`            `Row row = sheet.createRow(i);
+Row row = sheet.createRow(i);
 
-`            `for (int j = 0; j < data[i].length; j++) {
+for (int j = 0; j < data[i].length; j++) {
 
-`                `Cell cell = row.createCell(j);
+Cell cell = row.createCell(j);
 
-`                `cell.setCellValue(data[i][j].toString());
-
-`            `}
-
-`        `}
-
-`        `FileOutputStream outputStream = new FileOutputStream(filePath);
-
-`        `workbook.write(outputStream);
-
-`        `workbook.close();
-
-`        `outputStream.close();
-
-`    `}
+cell.setCellValue(data[i][j].toString());
 
 }
+
+}
+
+FileOutputStream outputStream = new FileOutputStream(filePath);
+
+workbook.write(outputStream);
+
+workbook.close();
+
+outputStream.close();
+
+}
+
+}
+~~~
