@@ -1,6 +1,8 @@
-﻿**Why Do We Need TestNG in Selenium?**
+## Why Do We Need TestNG in Selenium? ##
 
 TestNG is particularly useful in Selenium automation testing for the following reasons:
+
+---
 
 **Parallel Execution:** 
 
