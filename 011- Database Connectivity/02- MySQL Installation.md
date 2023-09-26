@@ -1,12 +1,12 @@
-﻿Download MySQL Installer:
+﻿## Download MySQL Installer: ##
 
 - You can use the link given below to download the MySQL server.
 
-`               `<https://dev.mysql.com/downloads/installer/>
+<https://dev.mysql.com/downloads/installer/>
 
 - You can download the appropriate version for your system.
 
-![](Aspose.Words.6327fd46-ad94-42bd-980d-1cf36ac8a2c5.001.png)
+![MySQl](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/2dfe2e90-7085-4429-96a7-a1f6a2a55d8b)
 
 **Run the Installer:**
 
