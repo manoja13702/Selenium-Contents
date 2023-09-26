@@ -1,4 +1,4 @@
-﻿**The following are the components of selenium :**
+﻿## The following are the components of selenium : ##
 
 - Selenium IDE.
 - Selenium RC.
