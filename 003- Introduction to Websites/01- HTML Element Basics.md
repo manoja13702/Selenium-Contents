@@ -1,11 +1,11 @@
-﻿**HTML:**
+﻿## HTML: ##
 
 HTML (Hyper Text Markup Language) is the standard language used to create web pages. It consists of various elements that structure the content of a webpage. Elements are defined by HTML tags and may have attributes that provide additional information about the element. 
 
-\--------------------------------------------------------------------------------------------
+---
 
 **For example:**
-
+~~~
 <!DOCTYPE html>
 
 <html>
@@ -26,8 +26,8 @@ HTML (Hyper Text Markup Language) is the standard language used to create web pa
 
 </html>
 
-\---------------------------------------------------------------------------------------------------------
+~~~
 
-In this example, <html>, <head>, <title>, <body>, <h1>, and <p> are HTML elements.
+
 
 
