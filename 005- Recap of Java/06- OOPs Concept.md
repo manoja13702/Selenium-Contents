@@ -1,4 +1,4 @@
-﻿**OOPs Concepts:**
+﻿## OOPs Concepts: ##
 
 **Classes and Objects:** 
 
@@ -21,45 +21,47 @@ Wrapping the data (fields) and code acting on the data (methods) together as a s
 Representing the essential features without including the background details.
 
 **Example (class definition, inheritance, polymorphism):**
+~~~
+class Vehicle {
 
-**c**lass Vehicle {
+void drive() {
 
-`    `void drive() {
-
-`        `System.out.println("Driving...");
-
-`    `}
+System.out.println("Driving...");
 
 }
 
+}
+~~~
+~~~
 class Car extends Vehicle {
 
-`    `@Override
+@Override
 
-`    `void drive() {
+void drive() {
 
-`        `System.out.println("Driving a car...");
+System.out.println("Driving a car...");
 
-`    `}
+}
 
-`    `void accelerate() {
+void accelerate() {
 
-`        `System.out.println("Accelerating...");
+System.out.println("Accelerating...");
 
-`    `}
+}
 
 }
 
 public class Main {
 
-`    `public static void main(String[] args) {
+public static void main(String[] args) {
 
-`        `Car myCar = new Car();
+Car myCar = new Car();
 
-`        `myCar.drive(); // Polymorphism
+myCar.drive(); // Polymorphism
 
-`        `myCar.accelerate(); // Accessing subclass method
-
-`    `}
+myCar.accelerate(); // Accessing subclass method
 
 }
+
+}
+~~~
