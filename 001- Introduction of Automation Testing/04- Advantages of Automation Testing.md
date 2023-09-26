@@ -1,4 +1,4 @@
-﻿**Advantages of Automation:**
+﻿## Advantages of Automation: ##
 
 **Faster Execution:**
 
@@ -20,7 +20,7 @@ Over the long term, automation reduces testing costs by decreasing the time and 
 
 Automated tests catch bugs early in the development cycle, reducing the cost of fixing issues in later stages.
 
-**Real time examples:**
+## Real time examples: ##
 
 **Faster Execution:**
 
