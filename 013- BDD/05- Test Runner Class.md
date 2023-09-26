@@ -1,10 +1,10 @@
-﻿**Test Runner class:**
+﻿## Test Runner class: ##
 
-` `Test Runner class helps to execute the feature files and run the associated step definitions. 
+Test Runner class helps to execute the feature files and run the associated step definitions. 
 
 **Here's a simple example:**
 
-**---------------------------------------------------------------------------------------------------------**
+~~~
 
 import io.cucumber.junit.Cucumber;
 
@@ -20,4 +20,4 @@ public class TestRunner {
 
 }
 
-**---------------------------------------------------------------------------------------------------------**
+~~~
