@@ -4,17 +4,21 @@ To create a new TestNG test file in Eclipse:
 
 - Create a simple Maven Project.
 
-![](Aspose.Words.366d0303-9d7d-4b68-b5f6-f30f2354e3c9.001.png)
 
 - Click  on pom.xml
-
-![](Aspose.Words.366d0303-9d7d-4b68-b5f6-f30f2354e3c9.002.png)
-
+  
+![M3](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/c090d36b-d65d-4268-a57f-a30a757e4c28)
 - Again Click on the marked pom.xml
 
-![](Aspose.Words.366d0303-9d7d-4b68-b5f6-f30f2354e3c9.003.png)
+![POM](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/259bac62-52ef-49b2-a860-491c7e6a74d0)
 
-- You need to add two tags as  mentioned above like <dependencies>……</dependencies>
+- You need to add two tags as  mentioned below dependencies /dependencies.
+
+![DS](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/c5e1cca3-1ed3-41d5-802e-d7367e9c65d2)
+
 - Inside that you need to add dependency of TestNG.
+  
+  ![TDS](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/3eeba169-09ab-4cee-bc5c-daa868aef18a)
+  
 - And give ctrl+ s.
 - Files are automatically downloaded and saved in a folder called .m2
