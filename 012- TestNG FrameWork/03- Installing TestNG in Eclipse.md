@@ -1,22 +1,21 @@
-﻿**Installing TestNG in Eclipse:**
+﻿## Installing TestNG in Eclipse: ##
 
 - Follow the below steps to install TestNG in Eclipse
 
 1. Open Eclipse IDE.
-1. In Eclipse Click on help which was marked & the click on Eclipse Marketplace.
+2. In Eclipse Click on help which was marked & the click on Eclipse Marketplace.
 
-![](Aspose.Words.30c5df8c-0d7e-4e9c-b1f3-db87887c7008.001.png)
+![HELP](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/b331733d-6943-427a-82d2-f1324f21d67d)
 
-![](Aspose.Words.30c5df8c-0d7e-4e9c-b1f3-db87887c7008.002.png)
+![MP](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/7275861e-71aa-44b0-bfe4-a6967339ad92)
 
+![EMP](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/91b9b3b1-a3d9-488d-89bb-aa7a5071ff3a)
 
+3. Search for TestNG in Market Place.
 
-1. Search for TestNG in Market Place.
+4. Click the "Go" button.
+![TMP](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/fc2e3721-8dfc-4b7b-a432-c8593fe560cb)
 
-![](Aspose.Words.30c5df8c-0d7e-4e9c-b1f3-db87887c7008.003.png) 
+5. Find "TestNG for Eclipse" in the search results and click "Install".
 
-1. ` `Click the "Go" button.
-
-1. Find "TestNG for Eclipse" in the search results and click "Install".
-
-1. Follow the instructions on Installing TestNG in Eclipse.
+6. Follow the instructions on Installing TestNG in Eclipse.
