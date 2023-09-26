@@ -1,4 +1,4 @@
-﻿**To implement test cases using POM framework, follow these steps:**
+﻿## To implement test cases using POM framework, follow these steps: ##
 
 **Create page classes:** 
 
@@ -12,11 +12,13 @@ Annotate the elements in page classes using @FindBy annotations to lazily initia
 
 In your test scripts, use the page classes to interact with the application. This includes invoking methods defined in the page classes to perform actions and validate outcomes.
 
-\---------------------------------------------------------------------------------------------------------
+---
 
-For a real-time example, let's imagine a scenario where we have a web application for e-commerce. We'll create a POM structure for the login page:
+For a real-time example, let's imagine a scenario where we have a web application for e-commerce.
+We'll create a POM structure for the login page:
 
-\---------------------------------------------------------------------------------------------------------
+---
+~~~
 
 // LoginPage.java
 
@@ -30,48 +32,50 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-`    `private WebDriver driver;
+private WebDriver driver;
 
-`    `@FindBy(id = "username")
+@FindBy(id = "username")
 
-`    `private WebElement usernameInput;
+private WebElement usernameInput;
 
-`    `@FindBy(id = "password")
+@FindBy(id = "password")
 
-`    `private WebElement passwordInput;
+private WebElement passwordInput;
 
-`    `@FindBy(id = "loginButton")
+@FindBy(id = "loginButton")
 
-`    `private WebElement loginButton;
+private WebElement loginButton;
 
-`    `public LoginPage(WebDriver driver) {
+public LoginPage(WebDriver driver) {
 
-`        `this.driver = driver;
+this.driver = driver;
 
-`        `PageFactory.initElements(driver, this);
-
-`    `}
-
-`    `public void enterUsername(String username) {
-
-`        `usernameInput.sendKeys(username);
-
-`    `}
-
-`    `public void enterPassword(String password) {
-
-`        `passwordInput.sendKeys(password);
-
-`    `}
-
-`    `public void clickLogin() {
-
-`        `loginButton.click();
-
-`    `}
+PageFactory.initElements(driver, this);
 
 }
 
+public void enterUsername(String username) {
+
+usernameInput.sendKeys(username);
+
+}
+
+public void enterPassword(String password) {
+
+passwordInput.sendKeys(password);
+
+}
+
+public void clickLogin() {
+
+loginButton.click();
+
+}
+
+}
+~~~
+
+~~~
 // TestLogin.java
 
 import org.openqa.selenium.WebDriver;
@@ -80,27 +84,27 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestLogin {
 
-`    `public static void main(String[] args) {
+public static void main(String[] args) {
 
-`        `WebDriver driver = new ChromeDriver();
+WebDriver driver = new ChromeDriver();
 
-`        `driver.get("https://example.com/login");
+driver.get("https://example.com/login");
 
-`        `LoginPage loginPage = new LoginPage(driver);
+LoginPage loginPage = new LoginPage(driver);
 
-`        `loginPage.enterUsername("myUsername");
+loginPage.enterUsername("myUsername");
 
-`        `loginPage.enterPassword("myPassword");
+loginPage.enterPassword("myPassword");
 
-`        `loginPage.clickLogin();
+loginPage.clickLogin();
 
-`        `// Perform assertions or further actions after login
+// Perform assertions or further actions after login
 
-`        `// ...
+// ...
 
-`        `driver.quit();
-
-`    `}
+driver.quit();
 
 }
 
+}
+~~~
