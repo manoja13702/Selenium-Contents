@@ -1,4 +1,4 @@
-﻿1. **Absolute XPath:**
+﻿1. ## Absolute XPath: ##
 
 An Absolute XPath expression specifies the complete path from the root element to the desired element. It starts from the root node of the document (HTML) and provides the full path to the element being located.
 
@@ -17,7 +17,7 @@ WebElement element = driver.findElement(By.xpath("/html/body/div[1]/form/input[2
 - Not suitable for dynamic web applications.
 - Lengthy and hard to read, making maintenance difficult.
 
-1. ` `**Relative XPath:**
+2. ## Relative XPath: ##
 
 A Relative XPath expression starts selection from anywhere in the document using double forward slashes //. It allows for a more flexible and adaptable approach to element location by specifying a partial path.
 
