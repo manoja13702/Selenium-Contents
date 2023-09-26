@@ -2,21 +2,23 @@
 
 1. In Package Explorer click on File in that click New.
 
-1. In New click on Project and click Next.
+2. In New click on Project and click Next.
 
-![](Aspose.Words.b09c4cd9-be35-4a4b-bd77-5a9b27660a08.001.png)
+![M](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/7766ca58-731d-4c18-955b-da1663357c8f)
 
-![](Aspose.Words.b09c4cd9-be35-4a4b-bd77-5a9b27660a08.002.png)
+3. Click create a simple project and then click next
 
 
-
-1. ` `Maven Project and Enter the Group id(Package Name) and Artifact Id(Project Name)
-
-![](Aspose.Words.b09c4cd9-be35-4a4b-bd77-5a9b27660a08.003.png)
+![M1](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/fb7812fb-c614-4b90-8ae1-4bfc5b348641)
 
 
 
+4. Maven Project and Enter the Group id(Package Name) and Artifact Id(Project Name)
 
-1. Click on “Finish”, Once you click finish the Maven project will created.
+![M2](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/2ebd4cb9-ed0e-4a8c-be00-372f49329fec)
 
-![](Aspose.Words.b09c4cd9-be35-4a4b-bd77-5a9b27660a08.004.png)
+
+
+5. Click on “Finish”, Once you click finish the Maven project will created.
+
+![M3](https://github.com/rhushikesh2000/JAVA_TUTORIAL_/assets/142867318/c090d36b-d65d-4268-a57f-a30a757e4c28)
