@@ -6,7 +6,9 @@ New tab handling involves switching between browser tabs to interact with elemen
 
 Suppose we open a new tab and need to interact with elements in that tab.
 
-\---------------------------------------------------------------------------------------------------------
+---
+
+~~~
 
 // Open a new tab
 
@@ -20,20 +22,20 @@ Set<String> windowHandles = driver.getWindowHandles();
 
 for (String handle : windowHandles) {
 
-`    `if (!handle.equals(originalWindowHandle)) {
+if (!handle.equals(originalWindowHandle)) {
 
-`        `driver.switchTo().window(handle);
+driver.switchTo().window(handle);
 
-`        `// Perform actions on the new tab
+// Perform actions on the new tab
 
-`        `// ...
 
-`        `break;
+break;
 
-`    `}
+}
 
 }
 
 // Switch back to the original tab if needed
 
 driver.switchTo().window(originalWindowHandle);
+~~~
